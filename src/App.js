@@ -1,5 +1,8 @@
-import logo from './logo.svg';
-
+import React from "react";
+import Home from "./components/home.js";
+import About from './components/about.js';
+import Projects from './components/projects.js';
+import ContactInfo from './components/contactInfo.js';
 import './App.css';
 
 function App() {
@@ -10,12 +13,15 @@ function App() {
         <button>Projects</button>
         <button>Contact Info</button>
       </header>
-      <mainCard>
+      <main>
+        <constant>
 
-      </mainCard>
-      <div>
-
-      </div>
+        </constant>
+        <Home />
+        <About />
+        <Projects />
+        <ContactInfo />
+      </main>
     </div>
   );
 }
