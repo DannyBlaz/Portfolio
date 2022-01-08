@@ -2,7 +2,10 @@ import React from "react";
 
 function ContactInfo() {
     return (
-        <div></div>
+        <div>
+            <a href="https://github.com/DannyBlaz">Github</a>
+            <button>LinkedIn</button>
+        </div>
     );
 }
 
