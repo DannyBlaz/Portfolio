@@ -4,7 +4,7 @@ function ContactInfo() {
     return (
         <div>
             <a href="https://github.com/DannyBlaz">Github</a>
-            <button>LinkedIn</button>
+            <a href="https://www.linkedin.com/in/daniel-ezekiel/">LinkedIn</a>
         </div>
     );
 }
