@@ -14,9 +14,7 @@ function App() {
         <button>Contact Info</button>
       </header>
       <main>
-        <constant>
-        
-        </constant>
+
         <Home />
         <About />
         <Projects />

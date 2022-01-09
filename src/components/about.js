@@ -2,7 +2,11 @@ import React from "react";
 
 function About() {
     return (
-        <div></div>
+        <div>
+            <p>
+                Software Engineer skilled in troubleshooting and debugging Ruby, Rails, Node, JavaScript, and React. Supportive and enthusiastic team player dedicated to streamlining processes and efficiently resolving problems as shown in my retail experience at Amazon and Lowe's. Passionate about learning new things and staying current with new technologies.
+            </p>
+        </div>
     );
 }
 
