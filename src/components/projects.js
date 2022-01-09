@@ -2,7 +2,18 @@ import React from "react";
 
 function Projects() {
     return (
-        <div></div>
+        <div>
+            <button>
+                FineArt
+            </button>
+            <button>
+                Message Board
+            </button>
+            <button>
+                Food
+            </button>
+            
+        </div>
     );
 }
 

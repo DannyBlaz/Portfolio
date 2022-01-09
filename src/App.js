@@ -1,4 +1,5 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from "./components/home.js";
 import About from './components/about.js';
 import Projects from './components/projects.js';
