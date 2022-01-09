@@ -12,7 +12,6 @@ function Projects() {
             <button>
                 Food
             </button>
-            
         </div>
     );
 }
