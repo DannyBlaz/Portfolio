@@ -5,13 +5,11 @@ function ContactInfo() {
     return (
         <div>
             <Button>
-                <a href="https://github.com/DannyBlaz">Github</a>
+                <a style={{color:"#000"}} href="https://github.com/DannyBlaz">Github</a>
             </Button>
             <Button>
-                <a href="https://www.linkedin.com/in/daniel-ezekiel/">LinkedIn</a>
+                <a style={{ color: "#000" }} href="https://www.linkedin.com/in/daniel-ezekiel/">LinkedIn</a>
             </Button>
-
-            <Button >Button #1</Button>
         </div>
     );
 }
