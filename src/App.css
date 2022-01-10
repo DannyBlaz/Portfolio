@@ -8,9 +8,25 @@
   pointer-events: none;
 }
 
+#contact-img img{
+  height: 150px;
+  width: 150px;
+}
+
+#contact-info{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#contact-img{
+  background-color: white;
+  width: 300px;
+}
+
 #project-card{
   /* flex-direction: column; */
-  display: inline-flex;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 div#basic-navbar-nav.navbar-collapse.collapse{

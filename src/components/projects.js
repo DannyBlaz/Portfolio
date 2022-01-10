@@ -1,13 +1,13 @@
 import React from "react";
-import fineArt from "../assets/fineart.png"
-import messageBoard from "../assets/messageboard.png"
-import food from "../assets/food.png"
+import fineArt from "../assets/fineart.png";
+import messageBoard from "../assets/messageboard.png";
+import food from "../assets/food.png";
 
 function Projects() {
     return (
         <div>
             <h1>Projects</h1>
-            <div id="project-card" class="row row-cols-1 row-cols-md-2 g-3">
+            <div id="project-card" className="row row-cols-1 row-cols-md-2 g-3">
                 <div className="card" style={{ width: "18rem" }}>
                     <img src={fineArt} className="card-img-top" alt="App image" />
                     <div className="card-body">
