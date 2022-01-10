@@ -7,7 +7,7 @@ function Projects() {
     return (
         <div>
             <h1>Projects</h1>
-            <div className="project-card">
+            <div id="project-card" class="row row-cols-1 row-cols-md-2 g-3">
                 <div className="card" style={{ width: "18rem" }}>
                     <img src={fineArt} className="card-img-top" alt="App image" />
                     <div className="card-body">

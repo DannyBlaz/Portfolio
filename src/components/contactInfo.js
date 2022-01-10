@@ -11,6 +11,7 @@ function ContactInfo() {
             <Button>
                 <a style={{ color: "#000" }} href="https://www.linkedin.com/in/daniel-ezekiel/">LinkedIn</a>
             </Button>
+            
         </div>
     );
 }
