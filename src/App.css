@@ -25,9 +25,8 @@
   border-radius: 10px;
 }
 
-Carousel.img{
-  height: 150px;
-  width: 150px;
+#carousel-img{
+  height: 200px;
 }
 
 #project-card{
