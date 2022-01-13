@@ -5,17 +5,21 @@ import About from './components/about.js';
 import Projects from './components/projects.js';
 import ContactInfo from './components/contactInfo.js';
 import Navbar from './components/navbar.js';
+import Carousel from "./components/carousel.js";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
+      <Carousel />
       <main>
         <Home />
-        <About />
-        <Projects />
-        <ContactInfo />
+        <card>
+          <About />
+          <Projects />
+          <ContactInfo />
+        </card>
       </main>
     </div>
   );
