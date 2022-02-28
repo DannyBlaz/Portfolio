@@ -14,6 +14,10 @@
   border-radius: 30px;
 }
 
+/* card{
+  text-decoration-color: beige;
+} */
+
 #contact-info{
   display: flex;
   justify-content: space-evenly;

@@ -1,4 +1,12 @@
-# Getting Started with Create React App
+# How to start this app
+-COMMANDS THAT WE NEED TO RUN
+  *npm install --prefix client
+  *npm install semantic-ui-react semantic-ui-css
+  *npm start --prefix client
+  *npm install react-router-dom
+  *rails db:migrate
+  *deploying!
+  *brew tap heroku/brew && brew install heroku
 
 ## Yarn commands
 `yarn run deploy`
