@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   background-color: aquamarine;
+  /* position: absolute; */
 }
 
 .App-logo {
@@ -14,9 +15,12 @@
   border-radius: 30px;
 }
 
-/* card{
-  text-decoration-color: beige;
-} */
+card{
+  left: 0;
+    max-height: 1000px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
 
 #contact-info{
   display: flex;
@@ -31,6 +35,15 @@
 
 #carousel-img{
   height: 200px;
+}
+
+.my-pic{
+  height: 500px;
+  width: 300px;
+}
+
+main{
+  display: flex;
 }
 
 #project-card{

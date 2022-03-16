@@ -11,7 +11,7 @@ function NavBar() {
                     <Nav className="mr-auto">
                         <Nav.Link href="/">Home</Nav.Link>
                         <Nav.Link href="/about-us">Contact Info</Nav.Link>
-                        <Nav.Link href="/contact-us">About Me</Nav.Link>
+                        <Nav.Link href="/contact-me">About Me</Nav.Link>
                         <NavDropdown title="Projects" id="basic-nav-dropdown">
                             <NavDropdown.Item href="https://secure-forest-02892.herokuapp.com">FineArt</NavDropdown.Item>
                             <NavDropdown.Item href="https://pure-temple-59698.herokuapp.com">Message Board</NavDropdown.Item>
