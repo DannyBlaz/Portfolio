@@ -9,6 +9,7 @@
   *brew tap heroku/brew && brew install heroku
 
 ## Yarn commands
+`npm install --global yarn`
 `yarn run deploy`
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
