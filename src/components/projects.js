@@ -12,7 +12,7 @@ function Projects() {
                     <img src={fineArt} className="card-img-top" alt="App image" />
                     <div className="card-body">
                         <h5 className="card-title">FineArt</h5>
-                        <p className="card-text">App that helps Art School students share their work with colleagues.</p>
+                        <p className="card-text">App that helps Art School students share their work with colleagues. Username: Nick Password: 1234567</p>
                         <a href="https://secure-forest-02892.herokuapp.com" className="btn btn-primary">Demo</a>
                     </div>
                 </div>
@@ -20,7 +20,7 @@ function Projects() {
                     <img src={messageBoard} className="card-img-top" alt="App image" />
                     <div className="card-body">
                         <h5 className="card-title">Message Board</h5>
-                        <p className="card-text">Web app that models old messaging forums where users can create accounts and chat with random strangers.</p>
+                        <p className="card-text">Web app that models old messaging forums where users can create accounts and chat with random strangers. Username: Mike Password: 1234567</p>
                         <a href="https://pure-temple-59698.herokuapp.com" className="btn btn-primary">Demo</a>
                     </div>
                 </div>
