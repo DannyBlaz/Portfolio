@@ -7,6 +7,7 @@ import ContactInfo from './components/contactInfo.js';
 import Navbar from './components/navbar.js';
 import Carousel from "./components/carousel.js";
 import './App.css';
+import { Route, Switch } from "react-router-dom";
 
 function App() {
   return (
@@ -14,12 +15,38 @@ function App() {
       <Navbar/>
       <Carousel />
       <main>
-        <Home />
+        <Switch>
+          <Route exact path="/portfolio/">
+            <Home />
+            <card>
+              <About />
+              <Projects />
+              <ContactInfo />
+            </card>
+          </Route>
+          <Route path="/portfolio/about-me">
+            <Home />
+            <card>
+              <About />
+              <Projects />
+              <ContactInfo />
+            </card>
+          </Route>
+          <Route path="/portfolio/contact-me">
+            <Home />
+            <card>
+              <ContactInfo />
+              <About />
+              <Projects />
+            </card>
+          </Route>
+        </Switch>
+        {/* <Home />
         <card>
           <About />
           <Projects />
           <ContactInfo />
-        </card>
+        </card> */}
       </main>
     </div>
   );
