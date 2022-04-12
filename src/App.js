@@ -15,38 +15,12 @@ function App() {
       <Navbar/>
       <Carousel />
       <main>
-        <Switch>
-          <Route exact path="/portfolio/">
-            <Home />
-            <card>
-              <About />
-              <Projects />
-              <ContactInfo />
-            </card>
-          </Route>
-          <Route path="/portfolio/about-me">
-            <Home />
-            <card>
-              <About />
-              <Projects />
-              <ContactInfo />
-            </card>
-          </Route>
-          <Route path="/portfolio/contact-me">
-            <Home />
-            <card>
-              <ContactInfo />
-              <About />
-              <Projects />
-            </card>
-          </Route>
-        </Switch>
-        {/* <Home />
+        <Home />
         <card>
           <About />
           <Projects />
           <ContactInfo />
-        </card> */}
+        </card>
       </main>
     </div>
   );
