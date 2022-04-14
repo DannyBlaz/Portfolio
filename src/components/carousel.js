@@ -12,7 +12,7 @@ import swift from '../assets/swift.png'
 
 const Carousell = () => {
     return (
-        <div>
+        <div className="carousel">
             <Carousel>
                 <Carousel.Item>
                     <img
