@@ -6,7 +6,7 @@ function Home() {
     return (
         <div>
             <img className="my-pic" src={me}></img>
-            <p> He's Highness</p>
+            <p> He's Highness </p>
         </div>
     );
 }
