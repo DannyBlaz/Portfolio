@@ -4,7 +4,7 @@ import me from '../assets/me.png'
 
 function Home() {
     return (
-        <div>
+        <div className="me">
             <img className="my-pic" src={me}></img>
             <p> 
                 Find My Resume in The Links Tab 
