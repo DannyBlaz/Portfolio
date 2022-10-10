@@ -8,6 +8,9 @@
   *deploying!
   *brew tap heroku/brew && brew install heroku
 
+
+## Link to website
+https://dannyblaz.github.io/portfolio/
 ## Yarn commands
 `npm install --global yarn`
 
